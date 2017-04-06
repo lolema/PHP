@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'amblebold';
+    src: url('Amble-Bold-webfont.eot');
+    src: url('Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Amble-Bold-webfont.woff') format('woff'),
+         url('Amble-Bold-webfont.ttf') format('truetype'),
+         url('Amble-Bold-webfont.svg#amblebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+ul, p{
+	font-family: 'amblebold',Arial, "Times New Roman", Verdana, sans-serif;
+
+    
+}
+
+h2{
+	text-align: center;
+	color:#49090D;
+}
+h1{
+	text-align: center;
+	color: #49090D;
+}
+body{
+	background: url("image.jpg");
+	color:#826869;
+	
+}
+.presentation{
+	text-align: center;
+	color:#49090D;
+}
+
+.Heady{
+
+	border: 5px #49090D inset;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px black;
+}
+.Heady:hover{
+	border: 5px #49090D outset;
+}
+
+ul{
+	width : 50%;
+	min-width: 500px;
+	
+}
+
+p{
+  text-align: center 
+
+  
+}
+
+p,ul,h1,h2{
+	width:25%;
+	margin: auto;
+
+}
+
+
+.identification{
+	text-align: left;
+	margin:0px;
+}
